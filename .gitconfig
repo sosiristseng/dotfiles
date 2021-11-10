@@ -1,0 +1,7 @@
+[user]
+	name = Wen-Wei Tseng
+	email = sosiristseng@gmail.com
+[fetch]
+	prune = true
+[pull]
+	rebase = true
