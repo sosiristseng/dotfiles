@@ -1,7 +1,13 @@
 [user]
 	name = Wen-Wei Tseng
 	email = sosiristseng@gmail.com
+[init]
+	defaultBranch = main
 [fetch]
 	prune = true
 [pull]
 	rebase = true
+[rebase]
+	autosquash = true
+[help]
+	autocorrect = 10
