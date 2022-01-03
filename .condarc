@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+default_threads: 12
+auto_activate_base: false
