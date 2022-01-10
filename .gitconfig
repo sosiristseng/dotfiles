@@ -9,5 +9,6 @@
 	rebase = true
 [rebase]
 	autosquash = true
+	autoStash = true
 [help]
 	autocorrect = 10
