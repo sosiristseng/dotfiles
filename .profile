@@ -13,4 +13,6 @@ export EDITOR=$(command -v nano)
 # Julia
 export JULIA_NUM_THREADS=auto
 export JULIA_PROJECT=@.
-
+export CONDA_JL_HOME="${HOME}/conda"
+export JULIA_CONDAPKG_BACKEND="Null"
+export JULIA_PYTHONCALL_EXE=@PyCall
