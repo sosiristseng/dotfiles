@@ -1,5 +1,3 @@
-ENV["PYTHON"] = ""
-
 try
     @eval using Revise
 catch e
