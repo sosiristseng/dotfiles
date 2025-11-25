@@ -162,7 +162,9 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
 
-
+user_pref("gfx.webrender.layer-compositor", true);
+user_pref("media.wmf.zero-copy-nv12-textures-force-enabled", true);
+user_pref("media.av1.enabled", false); /** if your GPU does not support AV1 decoding ***/
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
