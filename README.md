@@ -1,4 +1,4 @@
-My dotfiles for
+My config files for
 
 - Julia
 - Git
