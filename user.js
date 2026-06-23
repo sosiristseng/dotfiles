@@ -35,6 +35,7 @@ user_pref("security.tls.enable_0rtt_data", false);
 
 /** DISK AVOIDANCE ***/
 user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.memory.capacity", 262144);
 user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
 user_pref("media.memory_cache_max_size", 65536);
 user_pref("browser.sessionstore.interval", 60000);
