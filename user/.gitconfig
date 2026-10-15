@@ -18,4 +18,4 @@
 	required = true
 	clean = git-lfs clean -- %f
 [core]
-	autocrlf = false
+	autocrlf = input
