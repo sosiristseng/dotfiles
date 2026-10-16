@@ -27,6 +27,10 @@ user_pref("gfx.canvas.accelerated.cache-size", 512);
 /** JS ***/
 user_pref("javascript.options.baselinejit.threshold", 50);
 
+/** MEMORY CACHE ***/
+user_pref("browser.cache.memory.capacity", 65536); // default=32768 (32 MB)
+user_pref("browser.cache.memory.max_entry_size", 10240); // default=5120 (5 MB)
+
 /** MEDIA CACHE ***/
 user_pref("media.cache_readahead_limit", 3600);
 user_pref("media.cache_resume_threshold", 1800);
@@ -48,9 +52,9 @@ user_pref("network.dnsCacheExpiration", 3600);
 ****************************************************************************/
 
 /** DISK AVOIDANCE ***/
-user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.disk.enable", true);
 user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
-user_pref("media.memory_cache_max_size", 102400);
+user_pref("media.memory_cache_max_size", 65536);
 user_pref("browser.sessionstore.interval", 60000);
 
 /** TELEMETRY ***/
